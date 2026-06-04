@@ -1,0 +1,22 @@
+.tmp/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Raw data is downloaded locally from KaggleHub.
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
